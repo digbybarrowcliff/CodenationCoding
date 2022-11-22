@@ -10,7 +10,7 @@ let favFilms = [
     "scooby doo 3 (TBA)",
     "avatar",
     "avatar 2",
-    
+    "avatar 3",
 ]
 favFilms [2] = "scooby doo 4";
 console.log (favFilms.unshift("2"));
