@@ -1,3 +1,9 @@
+/////////////////////// ACTIVITY 1
+const sayHello = (myName, drink) => {
+    console.log(`hi how are you, my name is ${myName} nd i like ${drink}`)
+}
+sayHello("digby","wine")
+
 // const holiday = (country, month, time) => {
 //     console.log (`yay lets go to ${country} in ${month} and need to go at ${time}`)
 // }
@@ -8,6 +14,8 @@
 //     console.log ("how are you")
 // }
 // saying ()
+
+//////////////////////// ACTIVITY 2
 
 // const hello = (name, drink) => {
 //     console.log (`hhi ${name}, come in, would you like ${drink}`)
