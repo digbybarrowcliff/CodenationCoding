@@ -1,3 +1,41 @@
+//////////////////activity 2
+let evenNumbers = []
+
+// for (let i = 0; i <= 20; i ++) {
+//     if (i % 2 == 0) {
+//         (evenNumbers.push(i))
+//     }
+// }
+// to do it backwards it is this way
+// for (let i = 20; i >= 0; i --) {
+//     if (i % 2 == 0) {
+//         (evenNumbers.push(i))
+//     }
+// }
+// console.log(`even numbers between 0 and 20 are ${evenNumbers}`)
+
+/////////////////////////// activity 3
+// let oddNumbers = []
+
+// for (let i = 0; i < 30; i++) {
+//     if (i % 2 != 0) {
+//         (oddNumbers.push(i))
+//     }
+// }
+// console.log(oddNumbers)
+
+////////////////////////////// activity 4
+
+let age = 17
+
+while (age < 18) {
+    console.log("you're too young")
+    age++
+}
+console.log("you're an adult")
+
+////////////////////////////////////////////
+
 // let favFilms = [
 //     "scooby doo 1",
 //     "scooby doo 2 - 'Haunted Island'",
@@ -19,15 +57,6 @@
 //  }
 
  // starts at 0, adds 2 '+=2', 1 + 2 = 3, adds up until where you have defined in 'i < 100/var'
-
-//  let evenNumbers = []
-
-//  for (let n = 0; n <= 20; n++) {
-//     if (n % 2 != 0) {  // n % 2 != 0 for odd
-//         (evenNumbers.push(n))
-//     }
-//  }
-// console.log (`The even numbers between 0 and 20 are ${evenNumbers}`)
 
 // let lives = 3
 // while (lives > 0) {
@@ -69,11 +98,11 @@
 //     }
 // }
 
-const greeting = () => {
-    return `Hello Code Nation, i like ${drink} and ${food}`
-}
-console.log(greeting("juice", "chocolate"))
+// const greeting = () => {
+//     return `Hello Code Nation, i like ${drink} and ${food}`
+// }
+// console.log(greeting("juice", "chocolate"))
 
-for (let i =0; i < 5; i++){
-    console.log(greeting())
-}
+// for (let i =0; i < 5; i++){
+//     console.log(greeting())
+// }
