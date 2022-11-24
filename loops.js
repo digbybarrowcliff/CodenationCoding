@@ -14,7 +14,7 @@ let evenNumbers = []
 // }
 // console.log(`even numbers between 0 and 20 are ${evenNumbers}`)
 
-/////////////////////////// activity 3
+/////////////////////////// activity 2
 // let oddNumbers = []
 
 // for (let i = 0; i < 30; i++) {
@@ -24,15 +24,84 @@ let evenNumbers = []
 // }
 // console.log(oddNumbers)
 
-////////////////////////////// activity 4
+////////////////////////////// activity 3
 
-let age = 17
+// let age = 17
 
-while (age < 18) {
-    console.log("you're too young")
-    age++
-}
-console.log("you're an adult")
+// while (age < 18) {
+//     console.log(`you're too young, you're only ${age}`)
+//     age++
+// }
+// console.log(`you're an adult, nice ${age}`)
+
+// function getAge(whatAge) {
+//     return (whatAge? "too young" : "old enough")
+// }
+// console.log(getAge(true))
+
+
+// ////////////////////////// activity 4
+
+// Math.random() // generate a number between 1 & 0
+
+// generates a random number between min and max but doesnt seem to work though.
+
+const random = (min, max) => Math.floor(Math.random() * (max - min)) + min; 
+
+function rdmNum (0
+    )
+console.log(Math.random())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ////////////////////////////////////////////
 
