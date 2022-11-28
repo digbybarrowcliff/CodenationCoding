@@ -53,15 +53,19 @@ const coffeeShop = {
     // drinkPrices: [3, 2, 1],
     // foodList: ["sandwich", "crisps", "apple"],
     // foodPrices: [5, 1, 0.5],
-    foodOrder(f) {
-    return `You ordered ${this.food[0][0]}. The price is ${this.food[0][1]} + ${this.food[1][1]} + ${this.food[2][1]}`
+    foodOrder(f, n1) {
+    return `You ordered ${this.food[f][n1]}. The price is £${this.food[f][n1]}`
     }, 
-    drinkOrder(d) {
-    return `You ordered ${this.drink[1][0]} and your price will be ${this.drink[1][1]}`
-    }
+    drinkOrder(d, n2) {
+    return `You ordered ${this.drink[d][n2]} and your price will be £${this.drink[d][n2]}`
+    },
+    totalOrder(f, d, n1, n2) {
+        return `total cost is £${this.food[f][n1] + this.drink[d][n2]}`
+    },
 }
-console.log(coffeeShop.foodOrder())
-console.log(coffeeShop.drinkOrder())
+console.log(coffeeShop.foodOrder(0, 1))
+console.log(coffeeShop.drinkOrder(0, 1))
+console.log(coffeeShop.totalOrder(1, 1, 1, 1))
 
 
 
