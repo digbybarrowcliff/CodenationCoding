@@ -46,39 +46,66 @@ let evenNumbers = []
 
 // generates a random number between min and max but doesnt seem to work though.
 
-const random = (min, max) => Math.floor(Math.random() * (max - min)) + min; 
+// this generates a random number between 1 and 6
+// const random = (min, max) => Math.floor(Math.random() * (max - min)) + min; 
+// console.log(random(0, 100))
+// // can do like this too
+// Math.random() * (max - min) + min
+// // or just with a max limit
+// Math.random() * max
+// Math.floor - rounds up and down to an integer
 
-function rdmNum (0
-    )
-console.log(Math.random())
+// generating more than 1 random number - need a loop
 
+// const genrdmnum = (min, max, times) => {
+//     const randoms = []
 
+//     for (let i=0; i < times; i++) {
+//         randoms.push(Math.floor(Math.random() * (max - min) + min))
+//     }
+//     return randoms
+// }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// console.log(genrdmnum(0, 6, 10))
 
 
+//////////////////////////////// ACTIVITY 5
+// let films = ["film 1", "film 2", "film 3", "film 4",]
+// for (let i = 0; i < films.length; i++) {
+//     if (films[2] = "film 3") {
+//         console.log("yay its film 3")
+//     } else {
+//         console.log ("wrong film")
+//     }
+// }
 
+///////////////////////////////// activity 6
 
+const rdmnum = (min, max, times) => {
+    const randoms = []
 
+    for (let i = 0; i < times; i++) {
+        randoms.push(Math.floor(Math.random() * (max - min) + min))
+    }
+    return randoms
+}
+console.log(rdmnum(1, 30, 6))
 
+if (randoms[1] % 7 == 0) {
+    console.log("divisble by 7")
+} else {
+    console.log ("not divisible")
+}
 
+///////////////////////////////////// activity 7
 
+bobfollow = ["hannah", "jenny", "jill", "muhammad"]
+hannahfollow = ["jack", "jelly", "jill", "hannah"]
 
-
+for (let i = 0; i < 1; i++) {
+    console.log (hannahfollow)
+    while (hannahfollow = bobfollow)
+}
 
 
 

@@ -55,7 +55,7 @@ const coffeeShop = {
     // foodPrices: [5, 1, 0.5],
     foodOrder(f) {
     return `You ordered ${this.food[0][0]}. The price is ${this.food[0][1]} + ${this.food[1][1]} + ${this.food[2][1]}`
-    },
+    }, 
     drinkOrder(d) {
     return `You ordered ${this.drink[1][0]} and your price will be ${this.drink[1][1]}`
     }

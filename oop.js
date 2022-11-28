@@ -1,3 +1,40 @@
+//////////////////////// activity 1
+class Rental {
+    constructor(location, movieList, contactNo) {
+        this.location = manchester;
+        this.movieList = ["film1", "film2", "film3"];
+        this.contactNo = 10592389450;
+    }
+    get movieList () {
+        return `the list of available moves are ${this.movieList}, please contact us on ${this.contactNo} to reserve a film`
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // class Pet {
 //     constructor(name, age, type, breed, colour, time) {
 //         this.name = name;
@@ -55,17 +92,23 @@
 // const test = new rental ("Manchester", "Market", "089352144", ["pirates", "pirates 2", "pirates 3"])
 // console.log (test.giveFilmOptions("manchester"))
 
-let stringLet = "let string";
-var stringVar = "var string";
+// let stringLet = "let string";
+// var stringVar = "var string";
 
-const newString = () => {
-    let stringLet = "new let string";
-    var stringVar = "new var string";
+// const newString = () => {
+//     let stringLet = "new let string";
+//     var stringVar = "new var string";
 
-    console.log(`Inside function: ${stringLet}`); //new
-    console.log(`Inside function: ${stringVar}`); //new
-}
-new String();
+//     console.log(`Inside function: ${stringLet}`); //new
+//     console.log(`Inside function: ${stringVar}`); //new
+// }
+// new String();
 
-console.log(`Outside function: ${stringLet}`); //old
-console.log(`Outside function: ${stringVar}`); //old
+// console.log(`Outside function: ${stringLet}`); //old
+// console.log(`Outside function: ${stringVar}`); //old
+
+
+
+
+
+
