@@ -79,33 +79,33 @@ let evenNumbers = []
 //     }
 // }
 
-///////////////////////////////// activity 6
+// ///////////////////////////////// activity 6
 
-const rdmnum = (min, max, times) => {
-    const randoms = []
+// const rdmnum = (min, max, times) => {
+//     const randoms = []
 
-    for (let i = 0; i < times; i++) {
-        randoms.push(Math.floor(Math.random() * (max - min) + min))
-    }
-    return randoms
-}
-console.log(rdmnum(1, 30, 6))
+//     for (let i = 0; i < times; i++) {
+//         randoms.push(Math.floor(Math.random() * (max - min) + min))
+//     }
+//     return randoms
+// }
+// console.log(rdmnum(1, 30, 6))
 
-if (randoms[1] % 7 == 0) {
-    console.log("divisble by 7")
-} else {
-    console.log ("not divisible")
-}
+// if (randoms[1] % 7 == 0) {
+//     console.log("divisble by 7")
+// } else {
+//     console.log ("not divisible")
+// }
 
-///////////////////////////////////// activity 7
+// ///////////////////////////////////// activity 7
 
-bobfollow = ["hannah", "jenny", "jill", "muhammad"]
-hannahfollow = ["jack", "jelly", "jill", "hannah"]
+// bobfollow = ["hannah", "jenny", "jill", "muhammad"]
+// hannahfollow = ["jack", "jelly", "jill", "hannah"]
 
-for (let i = 0; i < 1; i++) {
-    console.log (hannahfollow)
-    while (hannahfollow = bobfollow)
-}
+// for (let i = 0; i < 1; i++) {
+//     console.log (hannahfollow)
+//     while (hannahfollow = bobfollow)
+// }
 
 
 
